@@ -1,8 +1,8 @@
 import telebot
 from telebot import types
-from user import user_,password_,TOKEN
+from user import TOKEN
 from sqlalchemy.orm import  sessionmaker
-from rebut_tables import engine,translate_words,all_eng_words,rebut_table
+from create_tables import engine,translate_words,all_eng_words
 from createDB import Word,User,UserStats
 import random
 

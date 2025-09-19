@@ -54,7 +54,7 @@ class UserStats(Base):
     
     def __str__(self):
         return f'Stats for user {self.user_id}'
-    
+
 
 conn.close()
 
