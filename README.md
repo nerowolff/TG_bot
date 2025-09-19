@@ -2,6 +2,7 @@
 user_='****'
 password_='****'
 TOKEN='****'
+установка зависимостей - pip install -r requirements.txt
 DROPdb.py - удаление ДБ при необходимости.
 createDB.py - создание ДБ,если не создана
 create_tables.py - создание/обновление таблиц
